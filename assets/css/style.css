@@ -8,16 +8,24 @@
     src: url(../Fonts/Montserrat-Regular.ttf);
   }
 
+  *{
+    box-sizing: border-box;
+   }
+   
   .Homepage{
-    width: 1920px;
-    padding:24px 370px;
+    
   }
+
+.mark{
+    width: 1680px;
+    margin: 0px auto;
+}
 
 .menu_blok {
     display: flex;
     align-items: center;
-    padding:24px 370px ; 
-    width: 1920px;
+    height: 36px;
+    padding:24px 370px;
 
     background: #F6F5F4;
     box-shadow: inset 0px -1px 0px #E0E0E0;
@@ -25,53 +33,16 @@
 
 .menu1 {
     display: flex;
+    margin: 0px auto;
 }
 
-select{
-    width: 69px;
-    height: 22px;
-    border: none;
-    background: #F6F5F4;
-
-    font-family:Montser;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
-
-    color: #757575;
-}
-
-.btn2{
-    font-family:Montser;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 100%;
-
-    color: #333333;
-}
-
-.btn3{
-    font-family: Montser;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 100%;
-
-    color: #828282;
-}
 
 .menu2{
-    width: 162px;
     height: 36px;
-    margin-left: 478px;
+    margin: 0px auto;
 }
 
 .text13{
-    width: 51px;
-    height: 14px;
-
     font-family:Montser;
     font-style: normal;
     font-weight: 700;
@@ -88,7 +59,7 @@ select{
     border: none;
     border-radius: 12px;
 
-    font-family: 'Montserrat';
+    font-family:Montser;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -99,7 +70,6 @@ select{
 
 .text1{
     margin-right: 30px;
-
     font-family:Gothi;
     font-style: normal;
     font-weight: 400;
@@ -117,7 +87,6 @@ select{
 
 .text3{
     margin-right: 30px;
-
     font-family: Montser;
     font-style: normal;
     font-weight: 600;
@@ -129,8 +98,6 @@ select{
 
 .text4{
     margin-right: 30px;
-    background-color: ;
-
     font-family:Montser;
     font-style: normal;
     font-weight: 600;
@@ -141,6 +108,7 @@ select{
 }
 
 .text5{
+    margin-right: 30px;
     font-family:Montser;
     font-style: normal;
     font-weight: 600;
@@ -148,14 +116,87 @@ select{
     line-height: 140%;
 
     color: #757575;
-    margin-right:30px ;
+}
+
+.dropbtn{
+    border: none;
+    padding: 16px;
+    background: #F6F5F4;
+
+    font-family:Montser;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    
+    color: #757575;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+    flex-grow: 0;
+  }
+
+.dropdown-content  {
+    margin-bottom: 15px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 160px;
+    height: 92px;
+    box-shadow: 0px 343.472px 343.472px rgba(52, 41, 39, 0.08);
+
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}
+
+.dropdown-content a {
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #FFFFFF;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #F6F5F4;}
+
+.sprint {
+    font-family:Montser;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: #333333;
+
+}
+
+.audio{
+    font-family: Montser;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: #828282;
+}
+
+.mark1{            
+    width: 1680px;
+    margin: 0 auto;
+    background: #F6F5F4;
+    padding-left:369.95px;
 }
 
 .dec {
     background: #F6F5F4;
     display: flex;
-    padding: 94px 369px;
-    width: 1920px;
 }
 
 .dec10{
@@ -176,10 +217,12 @@ select{
 
 .dec_blok1{
     height: 510px;
+    width: 614px;
+    margin-top: 95px;
+    margin-left: 33px;
 }
 
 .text6{
-
     font-family:Montser;
     font-style: normal;
     font-weight: 700;
@@ -227,7 +270,7 @@ select{
 
 .dec_content{
    display: flex;
-   margin-top: 48px;
+
 }
 
 .dec2{
@@ -313,16 +356,27 @@ select{
         color: #585858;
     }
 
+    .mark2{
+        width: 1680px;
+        margin: 0 auto;
+    }
+
 .box{
     background: #FFFFFF;
     display: flex;
-    padding: 77px 370px;
-    width: 1920px;
 }
 
 .box1{
     width: 580px;
     height: 445px;
+    margin-top: 77.5px;
+    margin-left: 370px;
+}
+
+.box2{
+   margin-top: 121.5px;
+   margin-bottom: 127px;
+   height: 351.5px;
 }
 
 .box10{
@@ -332,6 +386,8 @@ margin-bottom: 30px;
 }
 
 .text17{
+    width: 474.46px;
+    height: 96px;
     
     font-family:Gothi;
     font-style: normal;
@@ -396,12 +452,18 @@ margin-bottom: 30px;
     padding-top: 30.5px;
 }
 
+.mark3{
+    width: 1680px;
+    margin: 0 auto;
+    background: #F6F5F4;
+    padding-left: 470px;
+}
+
 .main {
     background: #F6F5F4;
     display: flex;
-    padding: 24px 370px;
+
     height: 500px;
-    width: 1920px;
 }
 
 .main1{
@@ -460,11 +522,16 @@ p{
     color: #2B788B;
 }
 
+.mark4{
+    width: 1680px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    padding-left: 370px;
+}
+
 .ball {
     background: #FFFFFF;
     display: flex;
-    padding: 24px 370px;
-    width: 1920px;
 }
 
 .ball1{
@@ -474,10 +541,8 @@ p{
 }
 
 .ball2{
-    margin-left: 20px;
     width: 474px;
     height: 302px;
-    padding-top: 149px;
 }
 
 .ball4{
@@ -522,15 +587,20 @@ p{
     color: #2B788B;
 }
 
+.mark5{
+    width: 1680px;
+    margin: 0 auto;
+    background: #F6F5F4;
+    padding-left: 370px;
+}
+
 .footer{
     background: #F6F5F4;
-    padding: 24px 370px;
     height: 160px;
-    width: 1920px;
 }
 
 .footer_area{
-    width: 1180px;
+    
 }
 
 .footer1 {
