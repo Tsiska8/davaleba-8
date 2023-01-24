@@ -8,13 +8,16 @@
     src: url(../Fonts/Montserrat-Regular.ttf);
   }
 
+  .Homepage  {
+    margin: 0px auto;
+}
+
   *{
     box-sizing: border-box;
    }
 
 .mark{
-    width: 1680px;
-    padding:0px auto;
+    margin: 0px auto;
 }
 
 .menu_blok {
@@ -27,19 +30,18 @@
 }
 
 .menu1 {
-    display: flex;
     margin: 0px auto;
     height: 36px;
 }
 
 
 .menu2{
-    width: 162px;
     height: 36px;
     margin: 0px auto;
 }
 
 .text13{
+    margin-right: 30px;
     font-family:Montser;
     font-style: normal;
     font-weight: 700;
@@ -178,14 +180,12 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 100%;
-    ma
 
     color: #828282;
 }
 
-.mark1{            
-    width: 1680px;
-    padding: 0 auto;
+.mark1{  
+    margin: 0 auto;
     background: #F6F5F4;
 }
 
@@ -193,6 +193,11 @@
     background: #F6F5F4;
     display: flex;
     margin: 0px auto;
+}
+
+.dec_blok{
+   margin: 0px auto;
+   height:740px ;
 }
 
 .dec10{
@@ -207,13 +212,8 @@
     margin-bottom: 30px;
 }
 
-.dec_blok{
-    width: 531px;
-    margin: 0px auto;
-}
 
 .dec_blok1{
-    height: 510px;
     width: 614px;
     margin-top: 95px;
     margin-left: 33px;
@@ -354,14 +354,12 @@
     }
 
     .mark2{
-        width: 1680px;
-        padding: 0px auto;
+        margin: 0px auto;
     }
 
 .box{
     background: #FFFFFF;
     height: 600px;
-    margin-left: 230px;
     display: flex;
 }
 
@@ -451,7 +449,6 @@ margin-bottom: 30px;
 }
 
 .mark3{
-    width: 1680px;
     margin: 0px auto;
     background: #F6F5F4;
 }
@@ -460,8 +457,7 @@ margin-bottom: 30px;
     background: #F6F5F4;
     display: flex;
     height: 500px;
-    padding: 0px auto;
-    margin-left: 230px;
+    margin: 0px auto;
 }
 
 .main1{
@@ -519,7 +515,6 @@ p{
 }
 
 .mark4{
-    width: 1680px;
     margin: 0 auto;
     background: #FFFFFF;
 }
@@ -528,7 +523,6 @@ p{
     background: #FFFFFF;
     display: flex;
     padding: 0px auto;
-    margin-left: 230px;
 }
 
 .ball1{
@@ -585,16 +579,14 @@ p{
 }
 
 .mark5{
-    width: 1680px;
-   margin: 0 auto;
+    margin: 0 auto;
     background: #F6F5F4;
 }
 
 .footer{
     background: #F6F5F4;
     height: 160px;
-    padding: 0px auto;
-    margin-left: 230px;
+    margin: 0px auto;
 }
 
 .footer1 {
