@@ -8,8 +8,9 @@
     src: url(../Fonts/Montserrat-Regular.ttf);
   }
 
-  .Homepage  {
-    margin: 0px auto;
+body{
+    background:  #F5F5F5;
+    padding: 24px 370px;
 }
 
   *{
@@ -17,27 +18,26 @@
    }
 
 .mark{
-    margin: 0px auto;
+
 }
 
 .menu_blok {
     display: flex;
     align-items: center;
-    height: 84px;
-
+    width: 1180px;
+    height: 36px;
     background: #F6F5F4;
     box-shadow: inset 0px -1px 0px #E0E0E0;
 }
 
 .menu1 {
-    margin: 0px auto;
     height: 36px;
+    margin-bottom: 31px;
 }
 
-
 .menu2{
-    height: 36px;
     margin: 0px auto;
+    margin-bottom:31px ;
 }
 
 .text13{
@@ -185,19 +185,18 @@
 }
 
 .mark1{  
-    margin: 0 auto;
     background: #F6F5F4;
 }
 
 .dec {
     background: #F6F5F4;
     display: flex;
-    margin: 0px auto;
+    width: 1180px;
+    height: 510.78px;
 }
 
 .dec_blok{
-   margin: 0px auto;
-   height:740px ;
+    margin-right: 33px;
 }
 
 .dec10{
@@ -206,17 +205,14 @@
     margin-bottom: 24px;
 }
 
-.dec11{
-    width: 531px;
-    height: 201px;
-    margin-bottom: 30px;
-}
+p {
+    width: 474px;
+   }
 
 
 .dec_blok1{
     width: 614px;
     margin-top: 95px;
-    margin-left: 33px;
 }
 
 .text6{
@@ -228,6 +224,7 @@
 
     color: #2B788B;
 }
+
 .text7{
     line-height: 120%;
     font-family: Gothi;
@@ -300,7 +297,6 @@
         line-height: 100%;
         
         color:#2B788B;
-        margin-right: 48,78;
     }
 
     .text10{
@@ -354,11 +350,12 @@
     }
 
     .mark2{
-        margin: 0px auto;
+
     }
 
 .box{
     background: #FFFFFF;
+    width: 1180px;
     height: 600px;
     display: flex;
 }
@@ -395,7 +392,7 @@ margin-bottom: 30px;
 }
 
 .text18{
-    padding-top: 30px;
+    padding: 0px auto;
     font-family:Montser;
     font-style: normal;
     font-weight: 600;
@@ -406,32 +403,55 @@ margin-bottom: 30px;
 }
 
 .box4{
-    width: 131px;
-    height: 145px;
+    width: 129px;
+    text-align: center;
     background: #F2D4DC;
     border-radius: 14px;
     margin-right: 21.05px;
+    
+}
+
+.box3{
+    display: flex;
+    position: absolute;
+    width: 324.05px;
+    height: 145.5px;
+    margin-top: 30px;
+}
+
+.box4_image{
+    width: 131px;
+    height: 106px;
+    margin-left: 0px;
+
+    color:#945069; 
+}
+
+.box5_image{
+    width: 91px;
+    height: 106px;
+    margin-left: 41px;
+    color: #2B788B;
 }
 
 .text19{
-    margin-top: 19px;
-    text-align: center;
     font-family: Montser;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 100%;
+    letter-spacing: -0.04em;
 
     color: #945069;
 }
 
 .text20{
-    text-align: center;
     font-family: Montser;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 100%;
+    letter-spacing: -0.04em;
 
     color: #2B788B;
 }
@@ -440,40 +460,31 @@ margin-bottom: 30px;
     background: #C3DCE3;
     border-radius: 14px;
     width: 172px;
-    height: 145px;
+
+    text-align: center;
 }
 
-.box3{
-    display: flex;
-    padding-top: 30.5px;
-}
 
 .mark3{
-    margin: 0px auto;
     background: #F6F5F4;
 }
 
 .main {
     background: #F6F5F4;
     display: flex;
+    width: 1180px;
     height: 500px;
-    margin: 0px auto;
 }
 
 .main1{
-    width: 474px;
+    width: 474.46px;
     height: 254px;
 }
 
 .mein2{
     width: 580px;
     height: 473px;
-}
- 
-p{
- margin-bottom: 30px;
- width: 474px;
- height: 96px;
+    margin-top: 26.03px;
 }
 
 .text21{
@@ -515,28 +526,29 @@ p{
 }
 
 .mark4{
-    margin: 0 auto;
-    background: #FFFFFF;
+    
 }
 
 .ball {
     background: #FFFFFF;
     display: flex;
-    padding: 0px auto;
+    height: 600px;
+    width: 1180px;
 }
 
 .ball1{
-
-    height: 409px;
-    padding-top: 95px;
+    width: 680px;
+    height: 409.25px;
+    margin-top: 95.37px;
 }
 
 .ball2{
-    width: 474px;
+    width: 474.46px;
     height: 302px;
 }
 
 .ball4{
+    margin-top: 149px;
     margin-bottom: 30px;
 }
 
@@ -579,29 +591,27 @@ p{
 }
 
 .mark5{
-    margin: 0 auto;
-    background: #F6F5F4;
+    
 }
 
 .footer{
     background: #F6F5F4;
-    height: 160px;
-    margin: 0px auto;
+    width: 1180px;
+    height: 80px;
 }
 
 .footer1 {
     display: flex;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    height: 14px;
 }
 
 .footer2{
-   padding: 0px;
+   
 }
 
 .footer3{
     margin-left: 569px;
-    padding: 0px;
+
 }
 
 .text25{
@@ -628,8 +638,7 @@ p{
 
 .footer4 {
     display: flex;
-    padding-top: 23.5px;
-    padding-bottom: 43.06px;
+    height: 26px;
 }
 
 .footer_image {
