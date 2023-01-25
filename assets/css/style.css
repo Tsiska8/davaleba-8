@@ -404,6 +404,7 @@ margin-bottom: 30px;
 
 .box4{
     width: 129px;
+    height: 112px;
     text-align: center;
     background: #F2D4DC;
     border-radius: 14px;
@@ -423,6 +424,7 @@ margin-bottom: 30px;
     width: 131px;
     height: 106px;
     margin-left: 0px;
+    margin-top: -22px;
 
     color:#945069; 
 }
@@ -431,6 +433,8 @@ margin-bottom: 30px;
     width: 91px;
     height: 106px;
     margin-left: 41px;
+    margin-top: -22px;
+    
     color: #2B788B;
 }
 
@@ -460,7 +464,7 @@ margin-bottom: 30px;
     background: #C3DCE3;
     border-radius: 14px;
     width: 172px;
-
+    height: 112px;
     text-align: center;
 }
 
