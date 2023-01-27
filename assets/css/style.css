@@ -183,6 +183,7 @@ body{
     background: #F6F5F4;
     display: flex;
     align-items: flex-start;
+    margin-top: 50px;
 }
 
 .dec {
@@ -205,9 +206,9 @@ p {
    }
 
 
-.dec_blok1{
+.boy{
     width: 614px;
-    margin-top: 95px;
+    height: 510px;
     margin-left: auto;
 }
 
@@ -357,7 +358,7 @@ p {
     margin-inline: auto;
 }
 
-.box1{
+.girl{
     width: 580px;
     height: 445px;
     margin-top: 77.5px;   
@@ -483,10 +484,14 @@ margin-bottom: 30px;
     height: 254px;
 }
 
-.mein2{
+
+.schulerin{
     width: 580px;
     height: 473px;
-    margin-top: 26.03px;
+}
+
+.mein2{
+    padding-top:26.03px ;
 }
 
 .text21{
@@ -539,10 +544,14 @@ margin-bottom: 30px;
     width: 1180px;
 }
 
-.ball1{
+.paar{
     width: 680px;
     height: 409.25px;
-    margin-top: 95.37px;
+    padding-top: 95.37px;
+}
+
+.ball1{
+    padding-top: 95.37px;
 }
 
 .ball2{
