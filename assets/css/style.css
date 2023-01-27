@@ -27,7 +27,7 @@ body{
     margin-inline: auto;
     width: 1180px;
     height: 84px;
-    background: #F6F5F4;
+
     align-items: center;
 }
 
@@ -182,7 +182,7 @@ body{
 .mark1{  
     background: #F6F5F4;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .dec {
@@ -191,6 +191,7 @@ body{
     margin-inline: auto;
     height:740px;;
     width: 1180px;
+   
 }
 
 .dec10{
@@ -346,10 +347,10 @@ p {
 
     .mark2 {
      display: flex;
+     background: #FFFFFF;
     }
 
 .box{
-    background: #FFFFFF;
     width: 1180px;
     height: 600px;
     display: flex;
@@ -471,7 +472,6 @@ margin-bottom: 30px;
 }
 
 .main {
-    background: #F6F5F4;
     display: flex;
     width: 1180px;
     height: 500px;
@@ -529,10 +529,10 @@ margin-bottom: 30px;
 
 .mark4{
     display: flex;
+    background: #FFFFFF;
 }
 
 .ball {
-    background: #FFFFFF;
     display: flex;
     margin-inline: auto;
     height: 600px;
@@ -595,30 +595,27 @@ margin-bottom: 30px;
 
 .mark5{
     display: flex;
+    height: 160px;
     align-items: center;
+    background: #F6F5F4;
 }
 
 .footer{
-    background: #F6F5F4;
     display: flex;
     margin-inline: auto;
     width: 1180px;
-    height: 80px;
+    
 }
 
 .footer1 {
     display: flex;
-    height: 26px;
-    align-items: center;
-}
-
-.footer2{
-
+    align-items: flex-start;
+    padding: 0px;
+    margin-bottom: 20px;
 }
 
 .footer3{
-    margin-left: 569px;
-
+    margin-left: auto;
 }
 
 .text25{
@@ -646,6 +643,9 @@ margin-bottom: 30px;
 .footer4 {
     display: flex;
     height: 26px;
+    margin-top: 20px;
+    align-items: center;
+    padding: 0px;
 }
 
 .footer_image {
